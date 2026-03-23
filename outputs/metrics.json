@@ -1,0 +1,51 @@
+{
+  "dataset_rows": 1030,
+  "feature_count": 8,
+  "train_size": 824,
+  "test_size": 206,
+  "validation_size": 123,
+  "best_epoch": 665,
+  "test_mse": 76.9802017211914,
+  "test_r2": 0.4956711530685425,
+  "linear_regression_test_mse": 75.72211456298828,
+  "linear_regression_test_r2": 0.503913402557373,
+  "top_correlated_features": [
+    {
+      "feature": "Cement (component 1)(kg in a m^3 mixture)",
+      "correlation": 0.46958072685294755
+    },
+    {
+      "feature": "Superplasticizer (component 5)(kg in a m^3 mixture)",
+      "correlation": 0.4614045652808289
+    },
+    {
+      "feature": "Age (day)",
+      "correlation": 0.3403308081481251
+    },
+    {
+      "feature": "Water  (component 4)(kg in a m^3 mixture)",
+      "correlation": -0.29711086878244747
+    },
+    {
+      "feature": "Coarse Aggregate  (component 6)(kg in a m^3 mixture)",
+      "correlation": -0.2057498346260124
+    },
+    {
+      "feature": "Fine Aggregate (component 7)(kg in a m^3 mixture)",
+      "correlation": -0.1970599243602454
+    },
+    {
+      "feature": "Blast Furnace Slag (component 2)(kg in a m^3 mixture)",
+      "correlation": 0.13043819568734674
+    },
+    {
+      "feature": "Fly Ash (component 3)(kg in a m^3 mixture)",
+      "correlation": -0.011245848040448437
+    }
+  ],
+  "notes": [
+    "Train/test split follows the homework requirement: first 80% for training and last 20% for testing.",
+    "The MLP uses all 8 features; correlation analysis is exported separately for interpretation.",
+    "The target uses log1p scaling during training for better numerical stability on this fixed split."
+  ]
+}
