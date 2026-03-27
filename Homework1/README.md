@@ -8,6 +8,7 @@
 ## 文件说明
 
 - `作业报告.pdf`：作业报告。
+- `作业报告.ipynb`：作业实验实现流程（报告notebook版本）。
 - `train_mlp.py`：主训练脚本。
 - `dataset/Concrete_Data.xls`：原始数据集。
 - `*outputs/metrics.json`：训练后的主要指标。
