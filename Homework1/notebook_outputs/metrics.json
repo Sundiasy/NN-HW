@@ -1,0 +1,67 @@
+{
+  "dataset_rows": 1030,
+  "feature_count": 8,
+  "train_size": 824,
+  "test_size": 206,
+  "validation_size": 123,
+  "best_epoch": 479,
+  "test_mse": 22.129146575927734,
+  "test_r2": 0.9062017798423767,
+  "linear_regression_test_mse": 106.88081359863281,
+  "linear_regression_test_r2": 0.5469672083854675,
+  "feature_missing_before": {
+    "train": 0,
+    "test": 0
+  },
+  "target_missing_before": {
+    "train": 0,
+    "test": 0
+  },
+  "top_correlated_features": [
+    {
+      "feature": "Cement (component 1)(kg in a m^3 mixture)",
+      "correlation": 0.510422394893132
+    },
+    {
+      "feature": "Superplasticizer (component 5)(kg in a m^3 mixture)",
+      "correlation": 0.38154289975168254
+    },
+    {
+      "feature": "Age (day)",
+      "correlation": 0.3258340804994735
+    },
+    {
+      "feature": "Water  (component 4)(kg in a m^3 mixture)",
+      "correlation": -0.2919140839334137
+    },
+    {
+      "feature": "Fine Aggregate (component 7)(kg in a m^3 mixture)",
+      "correlation": -0.19597187950272052
+    },
+    {
+      "feature": "Coarse Aggregate  (component 6)(kg in a m^3 mixture)",
+      "correlation": -0.16150775639261217
+    },
+    {
+      "feature": "Blast Furnace Slag (component 2)(kg in a m^3 mixture)",
+      "correlation": 0.15723962509371667
+    },
+    {
+      "feature": "Fly Ash (component 3)(kg in a m^3 mixture)",
+      "correlation": -0.09460527587803351
+    }
+  ],
+  "notes": [
+    "Train/test split follows the homework requirement: first 80% for training and last 20% for testing.",
+    "Missing feature values are imputed with training-set medians; rows with missing targets are dropped.",
+    "The target uses log1p scaling during training for better numerical stability on this fixed split."
+  ],
+  "top_k_correlated_features": [
+    "Cement (component 1)(kg in a m^3 mixture)",
+    "Superplasticizer (component 5)(kg in a m^3 mixture)",
+    "Age (day)"
+  ],
+  "top_feature_model_best_epoch": 645,
+  "top_feature_model_test_mse": 64.80489349365234,
+  "top_feature_model_test_r2": 0.7253132462501526
+}

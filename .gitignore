@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pt
+*.csv
 .DS_Store
 *.zip
 /dataset
