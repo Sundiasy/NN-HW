@@ -1,0 +1,8 @@
+gymnasium[box2d]
+numpy
+pandas
+matplotlib
+tqdm
+wandb
+stable-baselines3
+sb3-contrib
